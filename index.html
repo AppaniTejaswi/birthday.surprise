@@ -1,0 +1,57 @@
+<style>
+    .letter-page {
+        background-color: #d62828; /* The red background from the video */
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .polaroid-frame {
+        background: white;
+        padding: 15px 15px 60px 15px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        transform: rotate(-5deg); /* Slight tilt like the video */
+        margin-bottom: 20px;
+    }
+
+    .polaroid-frame img {
+        width: 250px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .birthday-text {
+        font-family: 'Dancing Script', cursive; /* Use a script font */
+        font-size: 3.5rem;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .back-button {
+        position: absolute;
+        bottom: 30px;
+        right: 40px;
+        background: #f9d423;
+        color: #333;
+        padding: 10px 25px;
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+</style>
+
+<div class="letter-page">
+    <div class="polaroid-frame">
+        <img src="IMG_20250917_000122.jpg" alt="Sister's Birthday Photo">
+    </div>
+
+    <h1 class="birthday-text">HAPPIEST<br>BIRTHDAY!</h1>
+    <p>Welcome to your 20s</p>
+
+    <a href="index.html" class="back-button">BACK</a>
+</div>
